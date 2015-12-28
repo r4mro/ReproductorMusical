@@ -12,6 +12,11 @@
 		8C0914681C2F3D79003C3F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0914661C2F3D79003C3F2D /* Main.storyboard */; };
 		8C09146A1C2F3D79003C3F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0914691C2F3D79003C3F2D /* Assets.xcassets */; };
 		8C09146D1C2F3D79003C3F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C09146B1C2F3D79003C3F2D /* LaunchScreen.storyboard */; };
+		8C0914751C2F4313003C3F2D /* Baila Conmigo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C0914741C2F4313003C3F2D /* Baila Conmigo.mp3 */; };
+		8C0914771C2F431C003C3F2D /* Hay Yo Vengo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C0914761C2F431C003C3F2D /* Hay Yo Vengo.mp3 */; };
+		8C0914791C2F4326003C3F2D /* Ganas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C0914781C2F4326003C3F2D /* Ganas.mp3 */; };
+		8C09147B1C2F45A2003C3F2D /* CancionesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C09147A1C2F45A2003C3F2D /* CancionesTableViewController.swift */; };
+		8C09147D1C2F5074003C3F2D /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C09147C1C2F5074003C3F2D /* DetalleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8C0914691C2F3D79003C3F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C09146C1C2F3D79003C3F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C09146E1C2F3D79003C3F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0914741C2F4313003C3F2D /* Baila Conmigo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baila Conmigo.mp3"; sourceTree = "<group>"; };
+		8C0914761C2F431C003C3F2D /* Hay Yo Vengo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hay Yo Vengo.mp3"; sourceTree = "<group>"; };
+		8C0914781C2F4326003C3F2D /* Ganas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ganas.mp3; sourceTree = "<group>"; };
+		8C09147A1C2F45A2003C3F2D /* CancionesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionesTableViewController.swift; sourceTree = "<group>"; };
+		8C09147C1C2F5074003C3F2D /* DetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		8C0914611C2F3D79003C3F2D /* Reproductor */ = {
 			isa = PBXGroup;
 			children = (
+				8C0914781C2F4326003C3F2D /* Ganas.mp3 */,
+				8C0914761C2F431C003C3F2D /* Hay Yo Vengo.mp3 */,
+				8C0914741C2F4313003C3F2D /* Baila Conmigo.mp3 */,
 				8C0914621C2F3D79003C3F2D /* AppDelegate.swift */,
 				8C0914641C2F3D79003C3F2D /* ViewController.swift */,
 				8C0914661C2F3D79003C3F2D /* Main.storyboard */,
 				8C0914691C2F3D79003C3F2D /* Assets.xcassets */,
 				8C09146B1C2F3D79003C3F2D /* LaunchScreen.storyboard */,
 				8C09146E1C2F3D79003C3F2D /* Info.plist */,
+				8C09147A1C2F45A2003C3F2D /* CancionesTableViewController.swift */,
+				8C09147C1C2F5074003C3F2D /* DetalleViewController.swift */,
 			);
 			path = Reproductor;
 			sourceTree = "<group>";
@@ -122,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0914751C2F4313003C3F2D /* Baila Conmigo.mp3 in Resources */,
 				8C09146D1C2F3D79003C3F2D /* LaunchScreen.storyboard in Resources */,
 				8C09146A1C2F3D79003C3F2D /* Assets.xcassets in Resources */,
+				8C0914791C2F4326003C3F2D /* Ganas.mp3 in Resources */,
+				8C0914771C2F431C003C3F2D /* Hay Yo Vengo.mp3 in Resources */,
 				8C0914681C2F3D79003C3F2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C09147D1C2F5074003C3F2D /* DetalleViewController.swift in Sources */,
 				8C0914651C2F3D79003C3F2D /* ViewController.swift in Sources */,
 				8C0914631C2F3D79003C3F2D /* AppDelegate.swift in Sources */,
+				8C09147B1C2F45A2003C3F2D /* CancionesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
